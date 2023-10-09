@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    nav {
+           width: 70%;
+           display: flex;
+           margin: 0 auto;
+           padding: 60px;
+           justify-content: space-between;
+           .location{
+            display: flex;
+            .icon{
+                padding: 7px;
+            }
+           }
+           .phone {
+            display: flex;
+            .icon{
+                padding: 7px;
+            }
+           }
+           .email {
+            display: flex;
+            .icon{
+                padding: 7px;
+            }
+           }
+    }
+}

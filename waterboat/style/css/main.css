@@ -1,0 +1,163 @@
+body {
+  height: 3000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+main #slider button {
+  border-style: none;
+}
+
+main #slider button {
+  background-color: #1089ff;
+  padding: 20px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+header {
+  background-color: #f8f9fa;
+}
+
+body {
+  position: relative;
+}
+body main #nav2 {
+  background-color: #1089ff;
+  width: 100%;
+}
+body main #nav2 .article {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+}
+body main #nav2 .article h2 {
+  padding: 20px;
+}
+body main #nav2 .article h2 a {
+  color: white;
+}
+body main #slider {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+body main #slider .article {
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+body main #slider .article h1 {
+  font-size: 50px;
+  color: white;
+}
+body main #slider .article p {
+  font-size: 20px;
+  color: white;
+}
+body main #destinations {
+  width: 100%;
+}
+body main #destinations .container {
+  width: 80%;
+  margin: 0 auto;
+}
+body main #destinations .container .article {
+  margin: 0 auto;
+  text-align: center;
+  margin: 100px;
+}
+body main #destinations .container .article p, body main #destinations .container .article h2 {
+  font-size: 40px;
+}
+body main #destinations .container .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main #destinations .container .row .col-4 {
+  width: 31.3333333333%;
+  overflow: hidden;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body main #destinations .container .row .col-4 .travel, body main #destinations .container .row .col-4 .timePay {
+  padding: 15px;
+  font-size: 20px;
+}
+body main #destinations .container .row .col-4 .img {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+body main #destinations .container .row .col-4 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body main .team {
+  width: 100%;
+}
+body main .team .container {
+  width: 80%;
+  margin: 0 auto;
+}
+body main .team .container .article {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+body main .team .container .article p, body main .team .container .article h3 {
+  font-size: 30px;
+}
+body main .team .container .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main .team .container .row .col-3 {
+  padding: 50px;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  padding: 60px;
+  justify-content: space-between;
+}
+header nav .location {
+  display: flex;
+}
+header nav .location .icon {
+  padding: 7px;
+}
+header nav .phone {
+  display: flex;
+}
+header nav .phone .icon {
+  padding: 7px;
+}
+header nav .email {
+  display: flex;
+}
+header nav .email .icon {
+  padding: 7px;
+}/*# sourceMappingURL=main.css.map */
