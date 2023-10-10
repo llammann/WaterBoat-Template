@@ -1,28 +1,47 @@
+* {
+    font-family: Mulish;
+    box-sizing: border-box;
+}
+
 header {
     width: 100%;
+    box-sizing: border-box;
+
     nav {
-           width: 70%;
-           display: flex;
-           margin: 0 auto;
-           padding: 60px;
-           justify-content: space-between;
-           .location{
+        width: 70%;
+        display: flex;
+        margin: 0 auto;
+        padding: 60px;
+        justify-content: space-between;
+        // flex-wrap: nowrap;
+        // box-sizing: border-box;
+
+        .location {
             display: flex;
-            .icon{
+
+            .icon {
                 padding: 7px;
             }
-           }
-           .phone {
+        }
+
+        .phone {
             display: flex;
-            .icon{
+
+            .icon {
                 padding: 7px;
             }
-           }
-           .email {
+        }
+
+        .email {
             display: flex;
-            .icon{
+
+            .icon {
                 padding: 7px;
             }
-           }
+        }
+
+        .menu {
+            display: none;
+        }
     }
 }
